@@ -20,7 +20,6 @@ The goal is to contrast fundamentals (manual forward/backprop & optimization) wi
 ├── requirements.txt
 └── README.md
 ```
-> If `mnist_all.mat` exceeds GitHub’s size limit or license constraints, omit it from the repo and follow the download instructions below.
 
 ---
 
