@@ -16,9 +16,7 @@ The goal is to contrast fundamentals (manual forward/backprop & optimization) wi
 ├── cnn_mnist.py                 # PyTorch CNN
 ├── digitnn_results.json         # Saved test metrics (from-scratch run)
 ├── params.pickle                # Trained weights/metadata (from-scratch run)
-├── data/
-│   └── mnist_all.mat            # (Optional) MNIST .mat file if small & licensed
-├── outputs/                     # (Optional) Plots / confusion matrices
+├── mnist_all.mat                #  MNIST .mat file 
 ├── requirements.txt
 └── README.md
 ```
@@ -59,8 +57,8 @@ mkdir -p data
 
 | Model                                | Test Accuracy | Training Time |
 |--------------------------------------|---------------|---------------|
-| From‑scratch NN (NumPy + SciPy)      | XX%           | YY sec        |
-| CNN (PyTorch)                         | ZZ%           | WW sec        |
+| From‑scratch NN (NumPy + SciPy)      | 93.27%           | 37.31 sec        |
+| CNN (PyTorch)                         | 98.7%           | 170 sec        |
 
 Notes:
 - The CNN typically outperforms the vanilla MLP on image data.
@@ -97,7 +95,6 @@ python cnn_mnist.py
 ## 7. Files & Artifacts
 - **`digitnn_results.json`**: JSON with model name, training time, and test accuracy.
 - **`params.pickle`**: Pickled dictionary of trained weights / metadata.
-- **`outputs/`**: Optional plots (loss curves, confusion matrices, misclassified samples).
 
 ---
 
@@ -107,7 +104,7 @@ See `requirements.txt` for exact versions. Core libraries: **numpy, scipy, matpl
 ---
 
 ## 9. License
-If you choose to open-source, add a `LICENSE` (MIT is common).
+This project is open-source for learning and research use.
 
 ---
 
