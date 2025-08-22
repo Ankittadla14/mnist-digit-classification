@@ -16,9 +16,10 @@ The goal is to contrast fundamentals (manual forward/backprop & optimization) wi
 ├── cnn_mnist.py                 # PyTorch CNN
 ├── digitnn_results.json         # Saved test metrics (from-scratch run)
 ├── params.pickle                # Trained weights/metadata (from-scratch run)
-├── mnist_all.mat                #  MNIST .mat file 
-├── requirements.txt
-└── README.md
+├── mnist_all.mat                # MNIST .mat file 
+├── requirements.txt             # Python dependencies
+│── .gitignore                   # Ignore unnecessary files
+└── README.md                    # Project documentation
 ```
 
 ---
